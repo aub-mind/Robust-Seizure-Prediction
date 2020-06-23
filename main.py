@@ -100,10 +100,10 @@ def train(args):
     settings = {"dataset": dataset,
                 "datadir": dataset,
                 "cachedir": "{}_cache".format(dataset),
-                "results": "results\\results_{}".format(dataset),
-                "resultsCV": "results\\results_CV_{}".format(dataset),
-                "resultsCV_AE": "results\\resultsCV_{}_AE".format(dataset),
-                "results_AE": "results\\results_{}_AE".format(dataset)}
+                "results": "results\\results_{}\\".format(dataset),
+                "resultsCV": "results\\results_CV_{}\\".format(dataset),
+                "resultsCV_AE": "results\\resultsCV_{}_AE\\".format(dataset),
+                "results_AE": "results\\results_{}_AE\\".format(dataset)}
     
     for i in range(len(patients)):
 
