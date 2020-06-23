@@ -32,7 +32,10 @@ python main.py --mode without_AE --dataset CHBMIT
 ```
 
 
-## Results
+## Generated Adversarial Examples
+
+- Run ```inspect_AE.py``` to generate sample figures of advesarial examples 
+![Alt text](images/AE_noise.png?raw=true "AE")
 
 
 ## Contacts
