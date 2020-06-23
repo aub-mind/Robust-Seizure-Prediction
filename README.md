@@ -32,6 +32,7 @@ visualizations
 ## Contacts
 
 - [Amir Hussein](https://github.com/AmirHussein96) anh21@mail.aub.edu 
+- [Marc Djandji] mgd10@mail.aub.edu
 
 ## Paper:
 Cite our paper as:
