@@ -229,6 +229,8 @@ class CNN_GRU:
               int(summary[0][0]),'preictal: ',int(summary[1][0]))
         print('\n')
         #saving generated AEs
+        if not os.path.exists(path_ae):
+                     os.makedirs(path_ae)
         savefile(input_ae, X_file)
         savefile(y_ae, y_file)
         return input_ae, y_ae
@@ -376,13 +378,16 @@ class CNN_GRU:
             if mode == 'AE':
                 filename = os.path.join(
                          str(settings['resultsCV_AE']), 'history%s.hkl' %(target))
+                path =settings['resultsCV_AE']
             else: 
                 filename = os.path.join(
                          str(settings['resultsCV']), 'history%s.hkl' %(target))
-
+                path =settings['resultsCV']
+                
             print("Average AUC patient : ", int(target), ' ', auc_score_total/ind)
             history['AUC_AVG'].append(auc_score_total/ind)
-            
+            if not os.path.exists(path):
+                     os.makedirs(path)
             savefile(history, filename)
             saver.save(sess=session, save_path=save_path)
             print('Finished LOSOCV with AEs .................................')
@@ -442,12 +447,16 @@ class CNN_GRU:
                                       preds, y_test, test_loss1, emb)
             # interictal
             if mode == 'AE':
+                
                 filename = os.path.join(
-                     str(settings['results_AE']), 'test_hist_%s.hkl' % (target))
+                    str(settings['results_AE']), 'test_hist_%s.hkl' % (target))
+                path =settings['results_AE']
             else: 
                 filename = os.path.join(
                      str(settings['results']), 'test_hist_%s.hkl' % (target))
-            
+                path =settings['results']
+            if not os.path.exists(path):
+                     os.makedirs(path)
             savefile(history, filename)
             saver.save(sess=session, save_path=save_path)
             print('Finished evaluation......')
