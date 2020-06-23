@@ -1,11 +1,33 @@
 ## Introduction
+
 This repository contains the source code implementation used in the Paper titled Augmenting DL with Adversarial Training for Robust Prediction of Epilepsy Seizures [https://dl.acm.org/doi/abs/10.1145/3386580].
 
 ## Requirements
 
+* h5py (2.9.0)
+* hickle (3.4.5)
+* matplotlib (3.1.1)
+* mne (0.11.0)
+* pandas (0.25.1)
+* scikit-learn (0.21.3)
+* scipy (1.1.0)
+* tensorflow-gpu (1.14.0)
+
+## Main Files Description
+
+CHBMIT and FB: Raw dataset folders. 
+CHBMIT_cache and FB_cache: Prepared data folders.
+models/: Model source code.
+utils/: Helping modules to load and prepare the data.
+
+
 ## Quick start
+1. Download the two datasets (CHBMIT and FB) and move them into their folders.
+2. Run 
 
 
+## Results
+visualizations
 
 ## Contacts
 
