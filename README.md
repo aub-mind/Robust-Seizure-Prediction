@@ -27,7 +27,9 @@ utils/: Helping modules to load and prepare the data.
     CHBMIT: http://physionet.org/physiobank/database/chbmit/
     FB: http://epilepsy.uni-freiburg.de.
 2. Run ```main.py```
-```python main.py --mode without_AE --dataset CHBMIT ```
+```
+python main.py --mode without_AE --dataset CHBMIT
+```
 
 
 ## Results
