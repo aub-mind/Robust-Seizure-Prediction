@@ -24,8 +24,8 @@ This repository contains the source code implementation used in the Paper titled
 ## Quick start
 
 1. Download the two datasets (CHBMIT and FB) and move them into their folders.
-    CHBMIT: http://physionet.org/physiobank/database/chbmit/
-    FB: http://epilepsy.uni-freiburg.de.
+    - CHBMIT: http://physionet.org/physiobank/database/chbmit/
+    - FB: http://epilepsy.uni-freiburg.de.
 2. Run ```main.py```
 ```
 python main.py --mode without_AE --dataset CHBMIT
