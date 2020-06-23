@@ -15,10 +15,10 @@ This repository contains the source code implementation used in the Paper titled
 
 ## Main Files Description
 
-CHBMIT and FB: Raw dataset folders. 
-CHBMIT_cache and FB_cache: Prepared data folders.
-models/: Model source code.
-utils/: Helping modules to load and prepare the data.
+- CHBMIT and FB: Raw dataset folders. 
+- CHBMIT_cache and FB_cache: Prepared data folders.
+- models/: Model source code.
+- utils/: Helping modules to load and prepare the data.
 
 
 ## Quick start
