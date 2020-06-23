@@ -45,7 +45,7 @@ def load_results(path,dataset):
             '21' ]
     data=dict()
     for i in patients:
-        d=hkl.load(path+'history%s.hkl'%(i))
+        d=hkl.load(path+'//history%s.hkl'%(i))
         data[i]=d
     return data, patients
 
