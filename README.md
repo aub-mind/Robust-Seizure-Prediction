@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository contains the source code implementation used in the Paper titled Augmenting DL with Adversarial Training for Robust Prediction of Epilepsy Seizures [https://dl.acm.org/doi/abs/10.1145/3386580].
+This repository contains the source code implementation used in the Paper titled Augmenting DL with Adversarial Training for Robust Prediction of Epilepsy Seizures https://dl.acm.org/doi/abs/10.1145/3386580.
 
 ## Requirements
 
@@ -22,12 +22,16 @@ utils/: Helping modules to load and prepare the data.
 
 
 ## Quick start
+
 1. Download the two datasets (CHBMIT and FB) and move them into their folders.
-2. Run 
+    CHBMIT: http://physionet.org/physiobank/database/chbmit/
+    FB: http://epilepsy.uni-freiburg.de.
+2. Run ```main.py```
+```python main.py --mode without_AE --dataset CHBMIT ```
 
 
 ## Results
-visualizations
+
 
 ## Contacts
 
