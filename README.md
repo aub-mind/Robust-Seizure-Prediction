@@ -1,6 +1,6 @@
-## Introduction
+## Augmenting DL with Adversarial Training for Robust Prediction of Epilepsy Seizure
 
-This repository contains the implementation used in the paper titled Augmenting DL with Adversarial Training for Robust Prediction of Epilepsy Seizures https://dl.acm.org/doi/abs/10.1145/3386580.
+This repository contains the code used for the journal paper titled "Augmenting DL with Adversarial Training for Robust Prediction of Epilepsy Seizures" by Hussein A.,Djanji M. et al which was published at ACM Transactions on Computing for Healthcare. The paper can be found here: https://dl.acm.org/doi/abs/10.1145/3386580.
 
 ## Requirements
 
