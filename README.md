@@ -33,7 +33,7 @@ python main.py --mode without_AE --dataset CHBMIT
 
 ## Model
 
-(images/proposed_approach.png?raw=true "proposed_approach")
+![Alt text](images/proposed_approach.PNG?raw=true "proposed_approach")
 
 ## Generated Sample of Adversarial Examples
 
@@ -42,7 +42,7 @@ python main.py --mode without_AE --dataset CHBMIT
 
 ## Results
 
-(images/tsne.png?raw=true "tsne")
+![Alt text](images/tsne.PNG?raw=true "tsne")
 
 ## Contacts
 
