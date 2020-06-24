@@ -35,10 +35,12 @@ python main.py --mode without_AE --dataset CHBMIT
 
 ![Alt text](images/proposed_approach.PNG?raw=true "proposed_approach")
 
+
 ## Generate a Sample of Adversarial Examples
 
 - Run ```inspect_AE.py``` to generate sample figures of advesarial examples 
 ![Alt text](images/AE_noise.png?raw=true "AE")
+
 
 ## Results
 
@@ -50,8 +52,8 @@ python main.py --mode without_AE --dataset CHBMIT
 - [Marc Djandji] mgd10@mail.aub.edu
 
 ## Paper:
-Cite our paper as:
 
+Cite our paper as:
 ```
 @article{10.1145/3386580,
 author = {Hussein, Amir and Djandji, Marc and Mahmoud, Reem A. and Dhaybi, Mohamad and Hajj, Hazem},
