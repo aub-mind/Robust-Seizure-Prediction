@@ -31,12 +31,16 @@ This repository contains the code used for the journal paper titled "Augmenting 
 python main.py --mode without_AE --dataset CHBMIT
 ```
 
+## Model
+![Alt text](images/proposed_approach.png?raw=true "AE")
 
-## Generated Adversarial Examples
+## Generated Sample of Adversarial Examples
 
 - Run ```inspect_AE.py``` to generate sample figures of advesarial examples 
 ![Alt text](images/AE_noise.png?raw=true "AE")
 
+## Results
+![Alt text](images/tsne.png?raw=true "TSNE")
 
 ## Contacts
 
