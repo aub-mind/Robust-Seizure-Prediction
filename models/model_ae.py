@@ -131,8 +131,8 @@ class CNN_GRU:
 #            print([var.name for var in tf.trainable_variables()])
             # Optimizing with adversarial examples
             adversary_variables = tf.get_collection(self.ADVERSARY_VARIABLES)
-            print("Trainable parameters with AE: ",
-                  [var.name for var in adversary_variables])
+#             print("Trainable parameters with AE: ",
+#                   [var.name for var in adversary_variables])
             # Optimizing without adversarial examples
             l2_ae = self.lamda * tf.nn.l2_loss(self.x_noise, name='L2')
             self.loss_adversary = self.cost_Y + l2_ae
