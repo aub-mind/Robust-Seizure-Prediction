@@ -13,7 +13,7 @@ This repository contains the code used for the journal paper titled "Augmenting 
 * scipy (1.1.0)
 * tensorflow-gpu (1.14.0)
 
-## Main Files Description
+## Main Folders Description
 
 - CHBMIT and FB: Raw dataset folders. 
 - CHBMIT_cache and FB_cache: Prepared data folders.
